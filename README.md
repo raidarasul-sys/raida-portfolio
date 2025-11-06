@@ -1,6 +1,6 @@
-# raida-portfolio
+# Raida Rasul Portfolio
 
-## 💼 Projects
+## Projects
 
 ### 🔹 SQL Analytics Project: Analyzing Energy Consumption across Distributions
 
