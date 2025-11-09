@@ -5,7 +5,8 @@ This project uses SQL to analyze residential and commercial energy consumption d
 
 *All cost calculations are in Brazilian Real (BRL) and measure per square meter*
 
-**Business Problem**
+
+### **Business Problem**
 Energy costs can vary widely depending on building type, size, and occupancy. Utility companies and policymakers need insight into which regions and property types are least efficient to design targeted energy-saving programs. 
 
 **Methodology**
@@ -14,23 +15,17 @@ Energy costs can vary widely depending on building type, size, and occupancy. Ut
 3. Aggregation & Comparative Analysis 
 4. Distribution Analysis
 
-**Skills** 
-- **Language:** SQL 
-- **Database:** MySQL 
-- **Tools:** Excel, Tableau
-
 ## Key Performance Indicators (KPIs)
 
 | **Category** | **KPI** | **Value / Insight** |
-|---------------|----------|----------------------|
+|:-------------|:--------|:--------------------|
 | **Data Quality** | Missing Values | 0 |
 |  | Duplicate Records Removed | 48 |
 |  | Normalized Fields Created | Cost per m², Cost per Occupant |
 | **Regional Insights** | Highest Avg. Energy Cost | Southeast (88.1 BRL) |
 |  | Lowest Avg. Energy Cost | Midwest (84.7 BRL) |
 |  | Regional Cost Gap | 3.4 BRL difference (≈ 4%) |
-| **Customer Type Insights** 
-|  | Avg. Commercial Cost per Occupant | 1.82 BRL |
+| **Customer Type Insights** | Avg. Commercial Cost per Occupant | 1.82 BRL |
 |  | Avg. Residential Cost per Occupant | 1.01 BRL |
 |  | Commercial Share of Energy Cost | 58% of total national consumption (40% of customers) |
 | **Statistical Summary** | Mean Cost | 86.7 BRL |
@@ -40,6 +35,8 @@ Energy costs can vary widely depending on building type, size, and occupancy. Ut
 |  | Variance | ≈ 592 BRL² |
 |  | Distribution Shape | Right-skewed |
 
+*Insight*
+The dataset demonstrates strong cost concentration in the Southeast and among commercial properties, suggesting significant optimization potential through region-targeted policies and per-occupant billing models.
 
 ## **Results**
 - The Southeast region had the highest total energy cost, contributing 22.4% of total national consumption and an average cost of 88.1 BRL per record. 
@@ -57,7 +54,7 @@ Energy costs can vary widely depending on building type, size, and occupancy. Ut
       <sub><b>Distribution Percentage of Customer Type</b></sub>
     </td>
     <td align="center">
-      <img src="https://github.com/raidarasul-sys/raida-portfolio/blob/main/visuals/distribution_percentage_regions.png" width="420"><br>
+      <img src="https://github.com/raidarasul-sys/raida-portfolio/blob/main/visuals/distribution_percentage_regions.png" width="500"><br>
       <sub><b>Distribution Percentage of Regions</b></sub>
     </td>
   </tr>
@@ -74,7 +71,7 @@ Energy costs can vary widely depending on building type, size, and occupancy. Ut
 - Focus on cost-reduction programs in high-consumption regions (Southeast). 
 - Develop dashboards to monitor per-occupant cost trends and highlight outliers (high-cost buildings).
 
-**Skills** 
+**Skills Used** 
 - **Language:** SQL 
 - **Database:** MySQL 
 - **Tools:** Excel, Tableau
