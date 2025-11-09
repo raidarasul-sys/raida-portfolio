@@ -9,6 +9,7 @@ This project uses SQL to analyze residential and commercial energy consumption d
 ### **Business Problem**
 Energy costs can vary widely depending on building type, size, and occupancy. Utility companies and policymakers need insight into which regions and property types are least efficient to design targeted energy-saving programs. 
 
+
 **Methodology**
 1. Data Exploration & Cleaning 
 2. Descriptive & Statistical Analysis 
@@ -36,6 +37,7 @@ Energy costs can vary widely depending on building type, size, and occupancy. Ut
 |  | Distribution Shape | Right-skewed |
 
 *Insight*
+
 The dataset demonstrates strong cost concentration in the Southeast and among commercial properties, suggesting significant optimization potential through region-targeted policies and per-occupant billing models.
 
 ## **Results**
@@ -54,7 +56,7 @@ The dataset demonstrates strong cost concentration in the Southeast and among co
       <sub><b>Distribution Percentage of Customer Type</b></sub>
     </td>
     <td align="center">
-      <img src="https://github.com/raidarasul-sys/raida-portfolio/blob/main/visuals/distribution_percentage_regions.png" width="500"><br>
+      <img src="https://github.com/raidarasul-sys/raida-portfolio/blob/main/visuals/distribution_percentage_regions.png" width="490"><br>
       <sub><b>Distribution Percentage of Regions</b></sub>
     </td>
   </tr>
@@ -66,10 +68,11 @@ The dataset demonstrates strong cost concentration in the Southeast and among co
   <sub><b>Energy Cost Distribution</b></sub>
 </p>
 
-**Operational Recommendations**
-- Introduce occupancy-adjusted billing models to improve fairness and cost predictability. 
-- Focus on cost-reduction programs in high-consumption regions (Southeast). 
+### **Operational Recommendations**
+- Introduce occupancy-adjusted billing models to improve cost predictability. 
+- Focus on cost reduction programs in high consumption regions (Southeast). 
 - Develop dashboards to monitor per-occupant cost trends and highlight outliers (high-cost buildings).
+
 
 **Skills Used** 
 - **Language:** SQL 
