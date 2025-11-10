@@ -79,6 +79,10 @@ The dataset demonstrates strong cost concentration in the Southeast and among co
 - Focus on cost reduction programs in high consumption regions (Southeast). 
 - Develop dashboards to monitor per-occupant cost trends and highlight outliers (high-cost buildings).
 
+### **Key Takeaway**
+Commercial buildings account for only 40% of customers but 58% of total energy costs. Targeting this segment could reduce national energy spending by up to 15%.
+
+
 ## **Dataset Overview**
 **Source:** Synthetic dataset representing residential and commercial energy consumption patterns for 5,000 customers across multiple regions.  
 **File:** [`energy_consumption.csv`](https://github.com/raidarasul-sys/raida-portfolio/blob/main/energy_consumption.csv)  
