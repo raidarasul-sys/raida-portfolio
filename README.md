@@ -16,6 +16,11 @@ Energy costs can vary widely depending on building type, size, and occupancy. Ut
 3. Aggregation & Comparative Analysis 
 4. Distribution Analysis
 
+**Skills** 
+- **Language:** SQL 
+- **Database:** MySQL 
+- **Tools:** Excel, Tableau
+
 ## Key Performance Indicators (KPIs)
 
 | **Category** | **KPI** | **Value / Insight** |
@@ -35,6 +40,7 @@ Energy costs can vary widely depending on building type, size, and occupancy. Ut
 |  | Std. Deviation | ± 24.3 BRL |
 |  | Variance | ≈ 592 BRL² |
 |  | Distribution Shape | Right-skewed |
+
 
 *Insight*
 
@@ -56,7 +62,7 @@ The dataset demonstrates strong cost concentration in the Southeast and among co
       <sub><b>Distribution Percentage of Customer Type</b></sub>
     </td>
     <td align="center">
-      <img src="https://github.com/raidarasul-sys/raida-portfolio/blob/main/visuals/distribution_percentage_regions.png" width="490"><br>
+      <img src="https://github.com/raidarasul-sys/raida-portfolio/blob/main/visuals/distribution_percentage_regions.png" width="500"><br>
       <sub><b>Distribution Percentage of Regions</b></sub>
     </td>
   </tr>
@@ -64,7 +70,7 @@ The dataset demonstrates strong cost concentration in the Southeast and among co
 
 <!-- Second row: single wide chart -->
 <p align="center">
-  <img src="https://github.com/raidarasul-sys/raida-portfolio/blob/main/visuals/energy_cost_distribution_histogram.png" width="850"><br>
+  <img src="https://github.com/raidarasul-sys/raida-portfolio/blob/main/visuals/energy_cost_distribution_histogram.png" width="800"><br>
   <sub><b>Energy Cost Distribution</b></sub>
 </p>
 
@@ -73,8 +79,16 @@ The dataset demonstrates strong cost concentration in the Southeast and among co
 - Focus on cost reduction programs in high consumption regions (Southeast). 
 - Develop dashboards to monitor per-occupant cost trends and highlight outliers (high-cost buildings).
 
+### **Dataset Overview**
+**Source:** Synthetic dataset representing residential and commercial energy consumption patterns for 5,000 customers across multiple regions.  
+**File:** [`energy_consumption.csv`](https://github.com/raidarasul-sys/raida-portfolio/blob/main/energy_consumption.csv)  
+**Contents:**
+- `customer_id` — Unique identifier for each customer  
+- `customer_type` — Residential or Commercial classification  
+- `regions` — Geographical region name  
+- `building_size_m2` — Property size in square meters  
+- `occupants` — Number of occupants in the property  
+- `energy_cost_brl` — Monthly energy cost in Brazilian Real (BRL)  
 
-**Skills Used** 
-- **Language:** SQL 
-- **Database:** MySQL 
-- **Tools:** Excel, Tableau
+> *Note: The dataset is synthetic and created for analytical demonstration purposes.*
+
